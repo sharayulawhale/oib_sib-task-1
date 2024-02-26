@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(253, 239, 213);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    max-width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+.menu_cantainer {
+    max-width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+} 
+
+.resturant_container {
+    max-width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+} 
+
+.personal {
+    max-width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+.quote {
+    max-width: 100%;
+    padding: 0px 20px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 17px;
+    background-color: rgb(248, 176, 95);
+}
+
+.brand {
+    width: 125px;
+    height: px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+.button{
+    background-image: linear-gradient(
+        to right,
+        #f936c5 2%,
+        #013e37 51%,
+        #f936c5 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.items:hover {
+    border: 2px solid rgb(154, 111, 252);
+    border-radius: 5px;
+}
+
+.mainpic {
+    width: 100%;
+}
+.mainimg {
+    width: 100%;
+    margin-top: 17px;
+    border-radius: 9px;
+    box-shadow: 0px 25px 50px -20px  rgba(0, 0, 0,0.43);
+}
+
+.text {
+    font-size: 30px;
+    margin: 5px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.now {
+        background-image: linear-gradient(
+            to right,
+            #f936cf 2%,
+            #013e37 51%,
+            #f936cf 100%
+        );
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 6px;
+}
+
+.now:hover {
+    border: 2px solid rgb(151, 107, 254);
+    border-radius: 5px;
+}
+.explore {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.foodcard {
+    background-color: #fff;
+    border-radius: 7px;
+    margin-bottom: 13px;
+}
+
+.fooddiscription {
+    padding: 13px;
+}
+
+.foodpic {
+    width: 100%;
+}
+
+.foodimg {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+}
+.restext {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rowone {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+.rowtwo {
+    width: 100%;
+    display: flex;
+    gap: 3px;
+}
+
+.rest1 {
+    width: 100%;
+    height: 75px;
+}
+.rest3 {
+    width: 100%;
+    height: 85px;
+}
+
+.rest2 {
+    width: 125%;
+    height: 113px;
+}
+
+.rest4 {
+    width: 130%;
+}
+
+.rest5 {
+    width: 100%;
+    height: 85px;
+}
+.one,.two,.three,.four,.five {
+    width: 100%;
+    height: 100%;
+}
+.update {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.mail {
+    text-align: center;
+}
+
+#emailid {
+    height: 20px;
+}
+
+.qtext {
+    padding: 20px 0px;
+}
+
+.quotetext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+.quotepic {
+    width: 100%;
+    height: 100%;
+}
+quoteimg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: -3;
+    padding: 0px 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.last {
+    background-image: linear-gradient(
+        to right,
+        #810b7d 2%,
+        #033746 51%,
+        rgb(109, 8, 94) 100%
+    );
+    margin-top: 30px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logos {
+    width: 115px;
+}
+
+.logoblack {
+    width: 100%;
+}
+
+.lists {
+    color: #fff;
+    font-size: 11px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar{
+        justify-content: space-between;
+        padding: 7px 30px;
+    }
+
+    .brand {
+        width: 145px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .button {
+        padding: 10px;
+        width: 95px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .mainimg {
+        margin-top: 22px;
+    }
+    .menu_list {
+        margin-top: 45px;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .main {
+        max-width: 700px;
+    }
+    .menu_cantainer {
+        max-width: 700px;
+    }
+    .quote {
+        max-width: 700px;
+        margin-top: 15px;
+    }
+    .resturant_container {
+        max-width: 700px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .personal {
+        margin-top: 55dpx;
+    }
+    #pizza {
+        margin-bottom: 120px;
+    }
+    #burger {
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+    #ice {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .menu_cantainer {
+        margin-top: 50px;
+        position: relative;
+    }
+    .menubg {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-image:
+   linear-gradient(
+        to right,
+        #f8601a 2%,
+        #fc2c71 51%,
+        rgb(247, 83, 34) 100%
+    );
+        z-index: -3;
+        transform: skewY(-7deg);
+    }
+    .restext {
+        width: 82%;
+        font-size: 31px;
+    }
+    .rest4 {
+        width: 135%;
+    }
+    .rest5 {
+        width: 100%;
+        height: 90px;
+    }
+    .rest2 {
+        width: 130%;
+    }
+    .rest1 {
+        width: 100%;
+        height: 77px;
+    }
+    .rest3 {
+        width: 100%;
+        height: 87px;
+    }
+    .mail {
+        margin-left: 40px;
+    }
+    .update {
+        font-size: 31px;
+        margin-bottom: 8px;
+    }
+    #emailid {
+        height: 24px;
+        width: 25%;
+    }
+    .now {
+        padding: 10px;
+        width: 95px
+    }
+    .quotetext {
+        font-size: 27px;
+        margin-top: 30px;
+    }
+
+    .quoteimg {
+        height: 140px;
+    }
+
+    .last {
+        margin-top: 65px;
+        height: 95px;
+    }
+    
+    .logos {
+        width: 180px;
+    }
+    .lists {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 7px 45px;
+    }
+
+    .brand {
+        width: 160px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .button {
+        width: 100px;
+        padding: 12px;
+    }
+    .discription {
+        width: 100%;
+    }
+    .main {
+        max-width: 1200px;
+    }
+    .mainimg {
+        margin-top: 30px;
+    }
+    .text {
+        font-size: 47px;
+    }
+    .menu_cantainer {
+        max-width: 1200px;
+        margin-top: 100px;
+    }
+    .resturant_container {
+        max-width: 1200px;
+        margin-top: 80px;
+    }
+    .quote {
+        max-width: 1200px;
+        margin-top: 60px;
+    }
+    .menu_list {
+        gap: 21px;
+    }
+    #burger {
+        margin-top: 120px;
+        margin-bottom: 215px;
+    }
+    #cake {
+        margin-top: 240px;
+        margin-bottom: 60px;
+    }
+   
+    .explore {
+        font-size: 45px;
+    }
+    .now {
+        width: 100px;
+        padding: 12px;
+    }
+    .restext {
+        width: 82%;
+        font-size: 40px;
+    }
+    .rest1 {
+        width: 100%;
+        height: 100px;
+    }
+    .rest3 {
+        width: 100%;
+        height: 115px;
+    }
+    
+    .rest2 {
+        width: 135%;
+        height: 165px;
+    }
+    
+    .rest4 {
+        width: 140%;
+        height: 175px;
+    }
+    
+    .rest5 {
+        width: 100%;
+        height: 120px;
+    }
+    .update {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .mail {
+        margin-left: 40px;
+    }
+    #emailid {
+        height: 22px;
+        width: 20%;
+    }
+    .quotetext {
+        font-size: 44px;
+        margin-top: 40px;
+        color: #f936c5;
+    }
+    .quoteimg {
+        height:700px;
+        margin-bottom: 10%;
+    }
+    .last {
+        margin-top: 170px;
+        height: 135px;
+        justify-content: space-around;
+    }
+    
+    .logos {
+        width: 220px;
+    }
+    .lists{
+        font-size: 23px;
+    }
+}
+   
